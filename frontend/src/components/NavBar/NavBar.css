@@ -1,0 +1,36 @@
+/* src/components/NavBar/NavBar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .menu-button, .logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar.closed {
+    transform: translateX(-100%);
+  }
+  
+  @media (max-width: 600px) {
+    .sidebar {
+      width: 200px;
+    }
+  }
+  

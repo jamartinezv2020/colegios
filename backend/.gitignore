@@ -1,0 +1,12 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar configuraciones de bases de datos
+config/database.yml
+
+# Ignorar credenciales
+*.key
+*.pem
+
+# Ignorar la carpeta node_modules
+node_modules/
